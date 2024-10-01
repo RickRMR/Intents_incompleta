@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="button_title">Iniciar Activity</string>
+    <string name="second_screen_title">Segunda tela</string>
+    <string name="menu_save_title">Salvar</string>
+    <string name="menu_settings_title">Configurações</string>
+</resources>
