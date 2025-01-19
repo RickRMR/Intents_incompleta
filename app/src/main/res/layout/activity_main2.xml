@@ -6,11 +6,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity2"
+    tools:ignore="NamespaceTypo">
 
   <com.google.android.material.navigation.NavigationView
       android:layout_width="391dp"
       android:layout_height="741dp" >
+
+  </com.google.android.material.navigation.NavigationView>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -35,7 +38,5 @@
           app:titleTextColor="#FDFDFD" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-  </com.google.android.material.navigation.NavigationView>
-
 
 </androidx.drawerlayout.widget.DrawerLayout>
