@@ -6,37 +6,34 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2"
-    tools:ignore="NamespaceTypo">
+    tools:context=".MainActivity2">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:contentInsetStart="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:logo="@drawable/ic_logo"
+        app:menu="@menu/second_screen_menu"
+        app:subtitleTextColor="#FFFFFF"
+        app:title="@string/second_screen_title"
+        app:titleMarginStart="8dp"
+        app:titleTextColor="#FDFDFD" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
 
   <com.google.android.material.navigation.NavigationView
       android:layout_width="391dp"
-      android:layout_height="741dp" >
-
-  </com.google.android.material.navigation.NavigationView>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-      <androidx.appcompat.widget.Toolbar
-          android:id="@+id/toolbar2"
-          android:layout_width="0dp"
-          android:layout_height="wrap_content"
-          android:background="?attr/colorPrimary"
-          android:minHeight="?attr/actionBarSize"
-          android:theme="?attr/actionBarTheme"
-          app:contentInsetStart="0dp"
-          app:layout_constraintEnd_toEndOf="parent"
-          app:layout_constraintStart_toStartOf="parent"
-          app:layout_constraintTop_toTopOf="parent"
-          app:logo="@drawable/ic_logo"
-          app:menu="@menu/second_screen_menu"
-          app:subtitleTextColor="#FFFFFF"
-          app:title="@string/second_screen_title"
-          app:titleMarginStart="8dp"
-          app:titleTextColor="#FDFDFD" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+      android:layout_height="741dp" />
 
 </androidx.drawerlayout.widget.DrawerLayout>
