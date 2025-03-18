@@ -4,4 +4,7 @@
     <string name="second_screen_title">Segunda tela</string>
     <string name="menu_save_title">Salvar</string>
     <string name="menu_settings_title">Configurações</string>
+    <string name="drawer_home_title">Home</string>
+    <string name="bottom_nav_title_1">Opção 1</string>
+    <string name="bottom_nav_title_2">Opção 2</string>
 </resources>
